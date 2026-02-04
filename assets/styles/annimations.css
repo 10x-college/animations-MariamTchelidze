@@ -155,8 +155,14 @@
 .bottom-nav-a:hover .hide-on-hover {
   display: none;
 }
+/* ----------------------- Footer -----------------------*/
+.footer-a:hover {
+  color: #746b60;
+  transition: 0.4s ease-in-out;
+  font-weight: 800;
+}
 /* ----------------------- Keyframe functions ----------------------- */
-/* header logo bounce  */
+/*  ----------------------- header logo bounce ----------------------- */
 @keyframes bounce {
   0% {
     transform: translateY(0);
@@ -175,7 +181,7 @@
   }
 }
 
-/* rounded and  square sun rotates */
+/* ----------------------- rounded and  square sun rotates -----------------------*/
 @keyframes sun-rotate {
   from {
     transform: rotate(0deg);
@@ -185,7 +191,7 @@
   }
 }
 
-/* Empty page bouncing div */
+/* ----------------------- Empty page bouncing div -----------------------*/
 @keyframes fadeandbounce {
   0% {
     opacity: 0;
@@ -194,10 +200,10 @@
   20% {
     opacity: 1;
     transform: translateY(0);
-  } /* fade done */
+  }
   30% {
     transform: translateY(-15px);
-  } /* bounce starts */
+  }
   50% {
     transform: translateY(0);
   }
@@ -208,7 +214,7 @@
     transform: translateY(0);
   }
 }
-
+/* ----------------------- Social icons bouncing vertically ----------------------- */
 @keyframes bounceicons {
   0% {
     transform: translateY(-70px);
